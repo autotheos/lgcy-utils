@@ -2,11 +2,11 @@ import base58
 
 from typing import Any
 from _sha256 import sha256
-from trx_utils.hexadecimal import (
+from lgcy_utils.hexadecimal import (
     is_hex,
     remove_0x_prefix
 )
-from trx_utils.types import (
+from lgcy_utils.types import (
     is_text,
     is_bytes
 )
