@@ -45,13 +45,13 @@ with open(readme_filename) as f:
     PACKAGE_LONG_DESCRIPTION = f.read()
 
 setup(
-    name='trx-utils',
+    name='lgcy-utils',
     version=PACKAGE_VERSION,
-    description="""Common utility functions for tron codebases.""",
+    description="""Common utility functions for legacy codebases.""",
     long_description=PACKAGE_LONG_DESCRIPTION,
     author='Shamsudin Serderov',
     author_email='iexbase@protonmail.com',
-    url='https://github.com/iexbase/trx-utils',
+    url='https://github.com/autotheos/trx-utils',
     include_package_data=True,
     install_requires=[
         "base58",
@@ -61,11 +61,11 @@ setup(
         "cytoolz>=0.8.2,<1.0.0;implementation_name=='cpython'",
     ],
     python_requires='>=3.5,!=3.5.2,<4',
-    py_modules=['trx_utils'],
+    py_modules=['lgcy_utils'],
     license="MIT",
     zip_safe=False,
     packages=find_packages(exclude=["tests"]),
-    package_data={'trx_utils': ['py.typed']},
+    package_data={'lgcy_utils': ['py.typed']},
     classifiers=[
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
