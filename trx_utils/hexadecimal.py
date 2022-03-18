@@ -16,7 +16,7 @@ from typing import (
 
 # Type ignored for `codecs.decode()` due to lack of mypy support for 'hex' encoding
 # https://github.com/python/typeshed/issues/300
-from trx_utils.types import (
+from lgcy_utils.types import (
     is_text,
     is_string
 )
