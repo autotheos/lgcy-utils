@@ -8,7 +8,7 @@ import decimal
 from decimal import localcontext
 from typing import Union
 
-from trx_utils.types import (
+from lgcy_utils.types import (
     is_string,
     is_integer
 )
@@ -21,10 +21,10 @@ UNITS = {
 
 
 def from_sun(number: int) -> Union[int, decimal.Decimal]:
-    """Helper function that will convert a value in SUN to TRX.
+    """Helper function that will convert a value in SUN to LGCY.
 
     Args:
-        number (int): Value in SUN to convert to TRX
+        number (int): Value in SUN to convert to LGCY
 
     """
     if number == 0:
@@ -44,10 +44,10 @@ def from_sun(number: int) -> Union[int, decimal.Decimal]:
 
 
 def to_sun(number: int) -> int:
-    """Helper function that will convert a value in TRX to SUN.
+    """Helper function that will convert a value in LGCY to SUN.
 
     Args:
-        number (int): Value in TRX to convert to SUN
+        number (int): Value in LGCY to convert to SUN
 
     """
     if is_integer(number) or is_string(number):
