@@ -51,7 +51,7 @@ setup(
     long_description=PACKAGE_LONG_DESCRIPTION,
     author='Shamsudin Serderov',
     author_email='iexbase@protonmail.com',
-    url='https://github.com/autotheos/trx-utils',
+    url='https://github.com/autotheos/lgcy-utils',
     include_package_data=True,
     install_requires=[
         "base58",
